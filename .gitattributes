@@ -1,0 +1,13 @@
+# Configuration for git attributes
+# This file is used to override language statistics
+public/** linguist-vendored
+*.min.js linguist-generated
+*.png binary
+**/*.go linguist-detectable
+public/* linguist-vendored
+build/* linguist-vendored
+* text=auto eol=lf
+*.woff2 binary
+*.yaml linguist-detectable=false
+Cargo.lock linguist-generated
+# eof 8e936478
